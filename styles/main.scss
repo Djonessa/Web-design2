@@ -1,0 +1,39 @@
+
+@use "partials/colors";
+
+nav{
+  background-color:black;
+  padding:8px;
+  color:$primary-color;
+  text-align: right;
+
+ ul{ 
+  li{
+  color:$primary-color;
+  list-style: none;
+  display: inline;
+  padding: 5px;
+  text-transform: uppercase;
+  a:link{
+    text-decoration: none;
+}
+}
+}
+}
+  #place{ 
+    text-align: left;
+    text-decoration: underline;
+   position: absolute;
+  top: 25px;
+  left:50px;
+  font-weight: bold;
+  
+}
+.heading2{
+  color:gold;
+}
+.star{
+ position: absolute;
+ top: 45px;
+
+}
