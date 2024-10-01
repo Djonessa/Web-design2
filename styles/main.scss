@@ -2,7 +2,7 @@
 @use "partials/colors";
 
 nav{
-  background-color:black;
+  background-color:$darker-background;
   padding:8px;
   color:$primary-color;
   text-align: right;
